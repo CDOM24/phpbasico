@@ -114,19 +114,19 @@
     <div class="card">
         <h2>📩 Contáctanos</h2>
         <p>Este formulario es solo visual (no envía datos).</p>
-
-        <form>
+    
+        <form action= "/store" method="GET">
             <div class="form-group">
                 <label>Email</label>
-                <input type="email" placeholder="ejemplo@correo.com">
+                <input name="email" type="email" placeholder="ejemplo@correo.com">
             </div>
 
             <div class="form-group">
                 <label>Mensaje</label>
-                <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+                <textarea name="message" placeholder="Mensaje"></textarea>
             </div>
 
-            <button type="button" class="btn">Enviar Mensaje</button>
+            <button type="submit" class="btn">Enviar Mensaje</button>
 
             <div class="note">
                 Diseño demostrativo sin funcionalidad en backend.
