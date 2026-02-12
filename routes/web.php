@@ -10,6 +10,14 @@ Route::get('/mi-nombre', function () {
     return 'Carlos Daniel Oliva';
 });
 
+Route::get('/contactanos', function () {
+    return view("form");
+    
+});
+
+
+
+
 Route::get('/php-basico', function () {
 
     echo "<h1 style='color: blue;'>Aprendiendo PHP</h1>";
